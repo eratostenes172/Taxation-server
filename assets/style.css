@@ -1,0 +1,124 @@
+.container-fluid {
+    padding: 10px 20px !important;
+    min-height: 98vh;
+}
+
+.salto {
+    border-top: 1px solid;
+    page-break-before: always;
+}
+
+.colbarcode {
+    padding: 0px;
+    border: none !important;
+}
+
+.barcode {
+    font-family: 'IDAutomationC128M';
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.txtcode {
+    font-size: 12px;
+    text-align: center;
+}
+
+.colDroppable {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-right: 0 !important;
+    padding-left: 0!important;
+}
+
+.rowDroppable {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.br {
+    border-top: 1px solid;
+}
+
+.rowDroppable:last-child {
+    /*border-bottom: 1px solid;*/
+}
+
+.colDroppable:nth-child(+n+2) {
+    border-left: none !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.header {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-bottom: 130px;
+}
+
+.separador {
+    margin-top: 10px;
+}
+
+.col-sm-11 {
+    flex: none !important;
+    max-width: 98% !important;
+}
+
+.colTable {
+    padding: 0 !important;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+    position: relative !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+}
+
+.table th, .table td {
+    border-left: 1px solid !important;
+    border-right: 1px solid !important;
+}
+
+.table th:first-child, .table td:first-child {
+    border-left: none !important;
+}
+
+.table th:last-child, .table td:last-child {
+    border-right: none !important;
+}
+
+.table tr {
+    border-top: 1px solid !important;
+}
+
+.table tr:nth-child(1) {
+    border-top: none !important;
+}
+
+.text-vertical {
+    height: 120px !important;
+    width: 20px !important;
+    padding-top: 5px !important;
+}
+
+.text-vertical>p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.back {
+    background-color: rgb(204, 229, 204);
+}
